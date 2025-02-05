@@ -6,12 +6,6 @@ import Foundation
 let coreVersion = Version("14.13.1")
 let cocoaVersion = Version("10.54.2")
 
-#if compiler(>=6)
-let swiftVersion = [SwiftVersion.version("6")]
-#else
-let swiftVersion = [SwiftVersion.v5]
-#endif
-
 let cxxSettings: [CXXSetting] = [
     .headerSearchPath("."),
     .headerSearchPath("include"),
@@ -397,6 +391,6 @@ let package = Package(
             ]
         )
     ],
-    swiftLanguageVersions: swiftVersion,
+    swiftLanguageVersions: [SwiftLanguageMode.v5],
     cxxLanguageStandard: .cxx20
 )
