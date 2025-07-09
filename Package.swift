@@ -3,8 +3,8 @@
 import PackageDescription
 import Foundation
 
-let coreVersion = Version("14.13.1")
-let cocoaVersion = Version("10.54.2")
+let coreVersion = Version("14.14.0")
+let cocoaVersion = Version("10.54.5")
 
 let cxxSettings: [CXXSetting] = [
     .headerSearchPath("."),
@@ -180,7 +180,6 @@ let package = Package(
                 "RealmSwift.podspec",
                 "SUPPORT.md",
                 "build.sh",
-                "ci_scripts/ci_post_clone.sh",
                 "contrib",
                 "dependencies.list",
                 "docs",
