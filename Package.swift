@@ -160,7 +160,7 @@ let package = Package(
             targets: ["RealmSwift"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/plato-app/realm-core.git", exact: "1.0.0")
+        .package(url: "https://github.com/plato-app/realm-core.git", exact: "14.14.0")
     ],
     targets: [
       .target(
