@@ -19,7 +19,6 @@ let cxxSettings: [CXXSetting] = [
     .define("REALM_COCOA_VERSION", to: "@\"\(cocoaVersion)\""),
     .define("REALM_VERSION", to: "\"\(coreVersion)\""),
 
-    .define("REALM_DEBUG", .when(configuration: .debug)),
     .define("REALM_NO_CONFIG"),
     .define("REALM_INSTALL_LIBEXECDIR", to: ""),
     .define("REALM_ENABLE_ASSERTIONS", to: "1"),
