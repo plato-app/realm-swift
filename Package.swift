@@ -58,7 +58,7 @@ let package = Package(
             targets: ["RealmSwift"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/plato-app/realm-core.git", exact: "20.1.4")
+        .package(url: "https://github.com/plato-app/realm-core.git", exact: "20.1.5")
     ],
     targets: [
       .target(
